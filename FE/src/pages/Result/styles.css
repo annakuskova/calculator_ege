@@ -1,0 +1,37 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 18px;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-programms {
+  display: flex;
+  gap: 50px;
+}
+
+.wrapper {
+  background-color: #edf2f5;
+  width: -webkit-fill-available;
+  min-height: 100vh;
+  height: 100%;
+  padding: 45px 0 0 55px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0 20px 0;
+}
+
+.points {
+  display: flex;
+  gap: 50px;
+}
+
+.enter-again {
+  margin-right: 90px;
+}

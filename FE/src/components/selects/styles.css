@@ -1,0 +1,124 @@
+.wrapperS {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: flex-start;
+}
+.selects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.select > * {
+  height: 40px;
+  align-content: center;
+}
+.selectWrapperS {
+  display: flex;
+  gap: 100px;
+}
+.selectWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+}
+
+.addSelect {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.addSelectWrapper {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.inputDeleteWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.removeSelect {
+  width: 28px;
+  height: 32px;
+}
+.deleteSub * {
+  stroke: rgb(160, 160, 160);
+  fill: none;
+}
+.deleteSub:hover * {
+  stroke: rgb(197, 197, 197);
+  fill: none;
+}
+
+.addSelect svg {
+  height: 27px;
+  width: 27px;
+}
+
+.addSub * {
+  fill: rgb(160, 160, 160);
+}
+
+.addSub:hover * {
+  fill: rgb(197, 197, 197);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #edf2f5;
+}
+
+.totalScoreWrapper {
+  margin: 45px 0 0 20px;
+}
+
+.calculateScore {
+  background-color: #4d89f9;
+  color: #ffffff;
+  height: 40px;
+  width: 160px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inria Serif", sans-serif;
+}
+.calculateScore:hover {
+  background-color: #376cd0;
+}
+
+.select {
+  width: 200px;
+}
+
+.header {
+  display: inline-flex;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Inria Serif", sans-serif;
+}
+
+.header > *:first-child {
+  margin-right: 155px;
+  margin-left: 50px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 48px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid rgba(8, 8, 8, 0.16);
+  border-radius: 4px;
+}

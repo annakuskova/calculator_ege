@@ -1,0 +1,17 @@
+.calc {
+  width: 163px;
+  height: 40px;
+  background: #4d89f9;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 15px;
+  font-family: "Inria Serif", sans-serif;
+}

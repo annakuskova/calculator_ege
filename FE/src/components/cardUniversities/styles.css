@@ -1,0 +1,99 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Inria Serif", sans-serif;
+}
+
+.card {
+  width: 1350px;
+  height: 85px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px 0 0 30px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.nameUniversity {
+  font-family: "Inria Serif", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4177dc;
+}
+
+.param {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-family: "Inria Serif", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.average {
+  display: flex;
+  gap: 50px;
+}
+
+.show {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.showPrograms {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #4d89f9;
+  background: none;
+  padding: 10px 40px 0 0;
+}
+
+.showProgramsU {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #4d89f9;
+  background: none;
+  padding-right: 40px;
+}
+
+.firstRow {
+  display: flex;
+}
+
+.secondRow {
+  display: flex;
+  gap: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 13px;
+}
+
+.thirdRow {
+  display: flex;
+  gap: 30px;
+  padding-top: 18px;
+}
+
+.probability {
+  display: flex;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  align-items: center;
+}

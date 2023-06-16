@@ -1,0 +1,21 @@
+.filtersWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 55px;
+}
+
+.filtersWrapper > * {
+    width: 270px;
+}
+
+.select > * {
+  height: 40px;
+  align-content: center;
+  font-size: 14px;
+  font-family: 'Inria Serif', sans-serif;
+}
+
+.select {
+    background-color: white;
+}

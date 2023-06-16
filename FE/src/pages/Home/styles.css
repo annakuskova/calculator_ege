@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: #edf2f5;
+  width: -webkit-fill-available;
+  min-height: 100vh;
+  height: 100%;
+  padding: 45px 0 0 55px;
+}
+
+header {
+  font-family: "Inria Serif", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40px;
+  color: #4d89f9;
+}
